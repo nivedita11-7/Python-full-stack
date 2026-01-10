@@ -1,0 +1,12 @@
+student={
+    101:"Vedhanth",102:"Vedansh",103:"Ramesh"
+    }
+print(student)
+print(student[102])
+print(student.keys())
+print(student.values())
+student[104]="Nivedita"
+student[101]="Rakesh"
+student[104]="Rakesh"
+print(student)
+len(student)
