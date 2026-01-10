@@ -1,0 +1,10 @@
+subject=("Science",2,15000,15000)
+print(subject[1])
+print(subject[-1])
+print(subject[0:2])
+print(subject.count(15000))
+print(subject.index(2))
+print(subject)
+sub=list(subject)
+sub.pop()
+      
